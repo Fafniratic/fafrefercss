@@ -1,0 +1,23 @@
+header {
+    text-align: center;
+}
+
+header h1, header h2, header a {
+    font-family: monospace;
+}
+
+ul li {
+    list-style: square;
+}
+
+figure img {
+    height: 500px;
+}
+#figcap {
+    padding-left: 200px;
+}
+code {
+    padding: 5px;
+    background-color: black;
+    color: yellow;
+}
