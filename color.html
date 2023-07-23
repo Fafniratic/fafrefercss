@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImStyCSS- Colors</title>
+    <link rel="stylesheet" href="Resources/color.css">
+</head>
+<body>
+    <header>
+    <a href="http://127.0.0.1:5500/CSS-Reference/Index/index.html" target="_blank">Index</a>
+    <h1>Improved Styling with CSS</h1>
+    <h2>Colors</h2>
+    </header>
+    <div>
+        <h3>INTRO</h3>
+        <p>Colors are of three types namely:</p>
+        <ul>
+            <li><a href="#namedcolors">Named Colors</a></li>
+            <li><a href="#rgb">RGB</a>: Mix of Red, blue and green</li>
+            <li><a href="#hsl">HSL</a>: Hue Saturation Lightness</li>
+        </ul>
+        <p>Colors can be either <strong>Foreground</strong> or <strong>Background</strong>.<br>Which can be added by (color: ;) and (background-color: ;) respectively.</p>
+        <p>Colors can also be represented by <strong>hexadecimal(#)</strong> which then are referred as <strong>hexcolors</strong>
+        <br>
+        they can be either represented by 3 or 6 characters.
+        </p>
+        <p>+Read about <a href="#opacityandalpha">Opacity and Alpha</a></p>
+    </div>
+    <div id="rgb">
+        <h3>RGB</h3>
+        <p>RGB is represnted as follows in three numeric values(0 to 255):</p>
+        <code>
+            h1 {<br>
+                color: rgb(23, 45, 23);
+              }
+        </code>
+        <p>Here the the first, second and third values are of red, green and blue respectively.</p>
+        <p>Hex and RGB both use 3 values for their colors out of 256
+            <br>
+            With this we can make 256*256*256 = 16,777,216 colors!, very close to 17 of millions of shades!
+        </p>
+    </div>
+    <div id="hsl">
+        <h3>HSL</h3>
+        <p><em>Follows Hue-Saturation-Lightness scheme</em>
+            <br>
+            First value can be between 0 to 360, the second and third are percentages.</p>
+        <figure>
+            <a href="https://en.wikipedia.org/wiki/Color_wheel"><img src="Resources/Color-Wheel.jpg" alt="imgNotFound"></a>
+            <p id="figcap">Color-Wheel used for Hue</p>
+        </figure>
+        <ul>
+            <li>Saturation refers to the intensity or purity of the color.</li>
+            <li>Lightness refers to how light or dark the color is. Halfway, or 50%, is normal lightness.</li>
+        </ul>
+    </div>
+    <div id="opacityandalpha">
+        <h3>Opacity And Alpha</h3>
+        <p><em>Can be used in RGB, HSL and HEX as the fourth value where RGB and HSLA need to be changed to RGBA and HSLA respectively.</em></p>
+        <code>
+            .container {
+                color: rgb {v1, v2 , v3 ,v4}
+            }
+        </code>
+        <p>Here, v4 is the Opacity which is called as Alpha and accepts value from 0 to 1</p>
+        <code>
+            color: TDF5S7G00;
+        </code>
+        <p>In hex the last two are the alphas, which range from 00 to FF</p>
+    </div>
+</body>
+</html>
