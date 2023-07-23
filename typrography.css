@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+code {
+    color: black;
+    background-color: rgb(120, 150, 150);
+}
+
+h1 {
+    font-family: creepster;
+    color: red;
+    background-color: black;
+}
+
+ul {
+    list-style: square;
+}
+
+div#index {
+    width: 660px;
+    margin: 0 auto;
+}
+
+ul li{
+    margin: 10px;
+}
+
+span:hover {
+    background-color: red;
+}
+span a:hover{
+    color: white;
+}
+
+/*font-weight - 0:1000, Normal - 400, Bold- 700  */
+span#index_kw {
+    border: 1px solid black;
+    padding: 3px;
+    font-weight: 900;
+    font-family: 'Creepster';
+}
+
+span a {
+    color: rgb(200, 0, 0);
+    font-weight: 100;
+    text-decoration: none;
+}
+
+header {
+    width: 680px;
+    margin: 15px auto;
+    text-align: center;
+}
